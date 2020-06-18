@@ -1,0 +1,18 @@
+mutation{
+  addTitle(input: {
+    employee: {
+      id: ""
+    },
+    title: "Programadora"
+  }){
+    id
+    employee{
+      id
+      name {
+        firstName
+        lastName
+      }
+    }
+    title
+  }
+}

@@ -1,0 +1,8 @@
+mutation{
+  addDepartment(input: {
+    deptName: "desarrollo"
+  }){
+    id
+    deptName
+  }
+}

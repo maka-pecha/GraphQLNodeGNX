@@ -1,0 +1,22 @@
+mutation{
+  addEmployee(input: {
+    name: {
+      firstName: "Maka"
+      lastName: "Pecha"
+    }
+    dni: 321545
+    birthDate: "1994-07-28"
+    gender: F
+    hireDate: "2020-07-01"
+  }){
+    id
+    name{
+      firstName
+      lastName
+    }
+    dni
+    birthDate
+    gender
+    hireDate
+  }
+}
